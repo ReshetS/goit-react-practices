@@ -1,3 +1,3 @@
 # GoIT React Practices
 
-Live site: 🔗 [goit-react-practices-intime.vercel.app](https://goit-react-practices-intime.vercel.app/)
+Live site: 🔗 [goit-react-practices.reshet.work](https://goit-react-practices.reshet.work/)
