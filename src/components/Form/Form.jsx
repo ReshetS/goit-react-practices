@@ -5,6 +5,8 @@ export const Form = ({ onSubmit }) => {
   function handleSubmit(evt) {
     evt.preventDefault();
     onSubmit(evt.target.elements.search.value);
+
+    evt.target.reset();
   }
 
   return (
