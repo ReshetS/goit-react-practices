@@ -1,8 +1,9 @@
-# React + Vite
+# GoIT React Practices
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repository for practices
 
-Currently, two official plugins are available:
+## Branches
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [2024-08-10](https://github.com/ReshetS/goit-react-practices/tree/2024-08-10)
+- [2024-08-24](https://github.com/ReshetS/goit-react-practices/tree/2024-08-24)
+- [2024-09-07](https://github.com/ReshetS/goit-react-practices/tree/2024-09-07)
