@@ -1,15 +1,14 @@
 import { Text, Grid, Todo } from 'components';
 import { useSelector } from 'react-redux';
-import { selectTodos } from 'reduxTodo/todoSlice';
+import { selectFilteredTodos } from 'reduxTodo/todoSlice';
 
 export const TodoList = () => {
-  const todos = useSelector(selectTodos);
-
+  const filterTodos = useSelector(selectFilteredTodos);
   return (
     <>
-      {todos.length > 0 ? (
+      {filterTodos.length > 0 ? (
         <Grid>
-          {todos.map(({ id, text }, ind) => {
+          {filterTodos.map(({ id, text }, ind) => {
             return <Todo text={text} id={id} key={id} counter={ind + 1} />;
           })}
         </Grid>
