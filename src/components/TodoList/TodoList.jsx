@@ -10,7 +10,7 @@ export const TodoList = () => {
       {todos.length > 0 ? (
         <Grid>
           {todos.map(({ id, text }, ind) => {
-            return <Todo text={text} key={id} counter={ind + 1} />;
+            return <Todo text={text} id={id} key={id} counter={ind + 1} />;
           })}
         </Grid>
       ) : (
